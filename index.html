@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Camera Veinte</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script src="js/jquery.bxslider.js"></script>
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.bxslider').bxSlider({
+                    minSlides: 6,
+                    maxSlides: 3,
+                    slideMargin: 5,
+                    slideWidth: 800,
+                    ticker: true,
+                    speed: 30000
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <!-- <audio src="audio/Audio.mp3"  autobuffer autoplay></audio> -->
+        <div class="wrap">
+            <header>
+                <h2>Camera Veinte</h2>
+            </header>
+
+         
+
+            <a href="#" onclick="$('nav').toggle('.nave')"  id="iconomenu"></a>
+
+            <nav class="nave">
+                <ul>
+                    <li>
+                        <a href="./index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./portafolio.html">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="./index.html" class="logo">
+                            <figure>
+                                <img src="img/Logo.png" alt="imagen" />
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./equipos.html">Equipos</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            
+            
+            <ul class="bxslider">
+                <li><img src="img/imagen1.JPG" /></li>
+                <li><img src="img/imagen2.JPG" /></li>
+                <li><img src="img/imagen3.JPG" /></li>
+            </ul>
+            <div class="logoPrincipal">
+                <figure>
+                    <img src="img/Logo.png" alt="imagen" />
+                </figure>
+            </div>
+            <footer>
+                <h3>Camera Veinte </h3>
+                <div class="redes">
+                    <ul>
+                        <li>
+                            <figure>
+                                <a href="http://www.twitter.com/gustoytacto"><img src="img/Twitter-256.png" alt="Twitter" /></a>
+                            </figure>
+
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="http://www.fb.com/ana.luisa.paredes.gonzalez"><img src="img/Facebook-256.png" alt="Twitter" /></a>
+                            </figure>						
+                        </li>
+                        <li>
+                            <figure>
+                                <a href="http://www.flickr.com/photos/gustoytacto"><img src="img/Flickr-256.png" alt="Twitter" /></a>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+
+            </footer>
+        </div>
+    </body>
+</html>
+
